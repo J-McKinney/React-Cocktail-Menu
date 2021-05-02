@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 
-class Main extends Component {
+class Error extends Component {
   render() {
     return (
       <>
         <div>
-          <h1>Main!</h1>
+          <h1>Error!</h1>
         </div>
       </>
     );
   }
 }
 
-export default Main;
+export default Error;
