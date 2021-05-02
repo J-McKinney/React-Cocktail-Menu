@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 // import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import NavBar from "../Components/NavBar/NavBar";
-// import SignIn from "../Components/SignInForm/SignInForm";
-// import Footer from "../Components/Footer/Footer";
+import SignIn from "../Components/SignInForm/SignInForm";
+import Footer from "../Components/Footer/Footer";
 
 class Login extends Component {
   render() {
@@ -11,6 +11,8 @@ class Login extends Component {
         <div>
           <NavBar />
           <h1>Login!</h1>
+          <SignIn />
+          <Footer />
         </div>
       </>
     );

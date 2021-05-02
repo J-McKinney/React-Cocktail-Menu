@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  // Link,
+  Switch,
+} from "react-router-dom";
 import Login from "./Pages/Login";
 import Main from "./Pages/Main";
 import Error from "./Pages/Error";
@@ -28,7 +33,7 @@ function App() {
 
     <Router>
       <div>
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <Link to="/">Login</Link>
@@ -37,7 +42,7 @@ function App() {
               <Link to="/Main">Main</Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
         <Switch>
           <Route path="/" exact component={Login} />
           <Route path="/Main/" component={Main} />
