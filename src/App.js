@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import Main from "./Pages/Main";
 import Login from "./Pages/Login";
+import Main from "./Pages/Main";
 import Error from "./Pages/Error";
 // import logo from "./logo.svg";
 import "./App.css";
@@ -31,16 +31,16 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Main</Link>
+              <Link to="/">Login</Link>
             </li>
             <li>
-              <Link to="/Login">Login</Link>
+              <Link to="/Main">Main</Link>
             </li>
           </ul>
         </nav>
         <Switch>
-          <Route path="/" exact component={Main} />
-          <Route path="/Login/" component={Login} />
+          <Route path="/" exact component={Login} />
+          <Route path="/Main/" component={Main} />
           <Route path="*" component={Error} />
         </Switch>
       </div>
