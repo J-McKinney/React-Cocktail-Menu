@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-// import Nav from "../Components/NavBar";
-// import Footer from "../Components/Footer";
+// import NavBar from "../Components/NavBar/NavBar";
+// import Footer from "../Components/Footer/Footer";
 
 class Main extends Component {
   render() {

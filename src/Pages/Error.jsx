@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Nav from "../Components/NavBar";
-import Footer from "../Components/Footer";
+// import NavBar from "../Components/NavBar/NavBar";
+// import Footer from "../Components/Footer/Footer";
 
 class Error extends Component {
   render() {
