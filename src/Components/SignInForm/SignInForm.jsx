@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Jumbotron } from "react-bootstrap";
 import styling from "./SignInForm.module.css";
 
 class SignInForm extends Component {
@@ -7,7 +6,7 @@ class SignInForm extends Component {
     return (
       <>
         <div className={styling.wrapper}>
-          <Jumbotron className={styling.jumbotron}></Jumbotron>
+          <h1>Sign In Form</h1>
         </div>
       </>
     );
