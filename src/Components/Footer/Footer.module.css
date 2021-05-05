@@ -1,3 +1,7 @@
 .wrapper {
   background-color: green;
 }
+
+.container {
+  padding: 20px;
+}

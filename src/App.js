@@ -9,8 +9,8 @@ import styling from "./App.css";
 function App() {
   return (
     <>
+      <NavBar />
       <div className={styling.wrapper}>
-        <NavBar />
         <Router>
           <Switch>
             <Route path="/" exact component={Login} />
@@ -18,8 +18,8 @@ function App() {
             <Route path="*" component={Error} />
           </Switch>
         </Router>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }

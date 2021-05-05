@@ -2,23 +2,23 @@ import React, { Component } from "react";
 import styling from "./NavBar.module.css";
 
 class NavBar extends Component {
-  state = {
-    show: true,
-    scrollPos: 0,
-  };
+  // state = {
+  //   show: true,
+  //   scrollPos: 0,
+  // };
 
-  componentDidMount() {
-    console.log("Mount: ");
-  }
-  componentDidUpdate() {
-    console.log("Update: ");
-  }
+  // componentDidMount() {
+  //   console.log("Mount: ");
+  // }
+  // componentDidUpdate() {
+  //   console.log("Update: ");
+  // }
 
   render() {
     return (
       <>
         <div className={styling.wrapper}>
-          <h1>Navbar</h1>
+          <h1>NavBar</h1>
         </div>
       </>
     );
