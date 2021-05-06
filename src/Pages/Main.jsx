@@ -18,7 +18,7 @@ class Main extends Component {
     // https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita    // By Name
     // https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a   // By First Letter
     // https://www.thecocktaildb.com/api/json/v1/1/search.php?i=vodka   // By Ingredient Name
-    // https://www.thecocktaildb.com/api/json/v1/1/random.php   // By Random
+    // https://www.thecocktaildb.com/api/json/v1/1/random.php   // Random Drink
     console.log("Hello Drinks!!!");
     axios
       .get("https://www.thecocktaildb.com/api/json/v1/1/random.php")
