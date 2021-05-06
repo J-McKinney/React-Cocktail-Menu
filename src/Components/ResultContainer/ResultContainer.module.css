@@ -13,13 +13,3 @@
   width: 100%;
   height: auto;
 }
-
-.logo {
-  width: calc(40px + 2vmin);
-}
-
-.navLink {
-  text-decoration: none;
-  min-height: 100vh;
-  font-size: calc(16px + 2vmin);
-}

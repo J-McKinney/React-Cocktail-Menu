@@ -89,7 +89,7 @@ class Main extends Component {
       .catch((error) => {
         console.log(error);
       });
-    console.log("drinkUp() " + this.state.drinkName);
+    // console.log("drinkUp() " + this.state.drinkName);
   };
 
   render() {

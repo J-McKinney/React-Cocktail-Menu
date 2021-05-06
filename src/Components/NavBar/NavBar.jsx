@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/martiniGlass.svg";
+import logo from "../../assets/Cocktails.svg";
 import styling from "./NavBar.module.css";
 
 class NavBar extends Component {
@@ -32,16 +32,17 @@ class NavBar extends Component {
                 </Link>
               </div>
               <div id={styling.col} className="col-md-7" />
-              <div id={styling.col} className="col-md-2">
+              <div id={styling.col} className="col-md-1">
                 <Link className={styling.navLink} to="/Main">
-                  <div className={styling.text}>Main</div>
+                  <div className={styling.text}>Home</div>
                 </Link>
               </div>
               <div id={styling.col} className="col-md-2">
                 <Link className={styling.navLink} to="/">
-                  <div className={styling.text}>Login</div>
+                  <div className={styling.text}>Login/Logout</div>
                 </Link>
               </div>
+              <div id={styling.col} className="col-md-1" />
             </div>
           </div>
         </div>
