@@ -17,7 +17,7 @@ function App() {
             <Route path="/Main/" component={Main} />
             <Route path="*" component={Error} />
           </Switch>
-          <Footer />
+          <Footer firstName="Footer1" secondName="Footer2" />
         </Router>
       </div>
     </>

@@ -26,7 +26,7 @@ class NavBar extends Component {
                 <Link className={styling.navLink} to="/Main">
                   <img
                     src={logo}
-                    alt="cocktail db logo"
+                    alt="cocktail logo"
                     className={styling.logo}
                   />
                 </Link>
