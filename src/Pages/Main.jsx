@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 // import Buttons from "../Components/Button/Buttons";
+import Cards from "../Components/Card/Cards";
 import axios from "axios";
 
 class Main extends Component {
@@ -88,7 +89,7 @@ class Main extends Component {
       .catch((error) => {
         console.log(error);
       });
-    console.log("drinkUp() " + this.state.drinkName);
+    // console.log("drinkUp() " + this.state.drinkName);
   };
 
   render() {
@@ -97,6 +98,7 @@ class Main extends Component {
         <div>
           <h1>Main</h1>
           {/* <Buttons onClick={this.drinkUp}>Hello World</Buttons> */}
+          <Cards />
         </div>
       </>
     );

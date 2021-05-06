@@ -1,7 +1,8 @@
 import React from "react";
+// import Buttons from "../Components/Button/Buttons";
 import styling from "./Card.module.css";
 
-function Card(props) {
+function Cards(props) {
   return (
     <>
       <div className={styling.wrapper}>
@@ -11,4 +12,4 @@ function Card(props) {
   );
 }
 
-export default Card;
+export default Cards;
