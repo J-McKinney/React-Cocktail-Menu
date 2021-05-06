@@ -1,7 +1,21 @@
 .wrapper {
-  background-color: green;
+  background-color: grey;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+  bottom: 0px;
+  position: static;
 }
 
 .container {
-  padding: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  font-size: calc(16px + 2vmin);
 }

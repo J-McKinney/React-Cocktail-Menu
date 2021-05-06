@@ -9,10 +9,10 @@ class Footer extends Component {
           <div className={styling.container}>
             <div id={styling.row} className="row">
               <div id={styling.col} className="col-md-6">
-                <h1>Footer1</h1>
+                <div className={styling.text}>Footer1</div>
               </div>
               <div id={styling.col} className="col-md-6">
-                <h1>Footer2</h1>
+                <div className={styling.text}>Footer2</div>
               </div>
             </div>
           </div>

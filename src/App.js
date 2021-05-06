@@ -9,17 +9,17 @@ import styling from "./App.css";
 function App() {
   return (
     <>
-      <NavBar />
       <div className={styling.wrapper}>
         <Router>
+          <NavBar />
           <Switch>
             <Route path="/" exact component={Login} />
             <Route path="/Main/" component={Main} />
             <Route path="*" component={Error} />
           </Switch>
+          <Footer />
         </Router>
       </div>
-      <Footer />
     </>
   );
 }

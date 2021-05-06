@@ -1,3 +1,21 @@
 .wrapper {
-  background-color: blue;
+  background-color: grey;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.navLink {
+  text-decoration: none;
+  min-height: 100vh;
+  font-size: calc(16px + 2vmin);
 }
