@@ -6,7 +6,7 @@ function Buttons(props) {
   return (
     <>
       <div className={styling.wrapping}>
-        <Button className={styling.button}>{props.buttonName}</Button>
+        <Button onClick={props.onClick} className={styling.button} {...props} />
       </div>
     </>
   );
