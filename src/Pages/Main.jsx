@@ -12,7 +12,7 @@ class Main extends Component {
     console.log("componentDidUpdate: ");
   }
 
-  drinkUp = (e) => {
+  drinkUp = () => {
     // e.preventDefault();
     // https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${id}
     // https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita    // By Name
